@@ -1,5 +1,7 @@
 package com.lec.base;
 
+import java.util.Calendar;
+
 public class Multi {
 
 	public static void main(String[] args) {
@@ -14,6 +16,9 @@ public class Multi {
 		
 		String str = "abcd";
 		System.out.println(str.toUpperCase());
+		
+		Calendar cal = Calendar.getInstance();
+		System.out.println(cal.get(Calendar.YEAR));
 	}
 
 }
