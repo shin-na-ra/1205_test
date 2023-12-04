@@ -11,6 +11,9 @@ public class Multi {
 		}
 		
 		System.out.println("task1 : i workked it!");
+		
+		String str = "abcd";
+		System.out.println(str.toUpperCase());
 	}
 
 }
