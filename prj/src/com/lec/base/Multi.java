@@ -9,6 +9,8 @@ public class Multi {
 				System.out.println(j+"X"+i+"="+j*i);
 			}
 		}
+		
+		System.out.println("task1 : i workked it!");
 	}
 
 }
