@@ -14,6 +14,10 @@ public class Multi {
 		
 		System.out.println("test1 : i don't wanna work..s");
 		System.out.println("test1 : but i have to work");
+
+		
+		String str = "ABCD";
+		System.out.println(str.toLowerCase());
 	}
 
 }
