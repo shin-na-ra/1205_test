@@ -13,6 +13,7 @@ public class Multi {
 		System.out.println("task1 : i workked it!");
 		
 		System.out.println("test1 : i don't wanna work..s");
+		System.out.println("test1 : but i have to work");
 	}
 
 }
