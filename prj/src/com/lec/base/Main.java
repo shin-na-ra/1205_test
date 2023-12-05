@@ -21,6 +21,13 @@ public class Main {
 		}
 		
 		System.out.println("총합 : "+sum);
+		
+		for(int i = 1; i<= num; i++) {
+			System.out.print(i+"의 숫자 : ");
+			sum *= sc.nextInt();
+		}
+		
+		System.out.println("총합 : "+sum);
 	}
 
 }
