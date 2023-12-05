@@ -1,6 +1,7 @@
 package com.lec.base;
 
 import java.util.Calendar;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Multi {
@@ -31,6 +32,27 @@ public class Multi {
 		
 		System.out.println("입력한 숫자 : "+inputNum);
 		
+		int[] arr = new int[6];
+		Random random = new Random();
+		int input = 0;
+		
+		for(int i=0; i<arr.length; i++) {
+			
+			input = random.nextInt(45)+1;
+			arr[i] = input;
+			
+			for(int j=0; j<i; j++) {
+				if(arr[j] == arr[i]) {
+					i--;
+					break;
+				}
+			}
+			
+		}
+		
+		for(int i=0; i<arr.length; i++) {
+			System.out.print(arr[i]+"\t");
+		}
 	}
 
 }
