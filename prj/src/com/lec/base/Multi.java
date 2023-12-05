@@ -53,6 +53,11 @@ public class Multi {
 		for(int i=0; i<arr.length; i++) {
 			System.out.print(arr[i]+"\t");
 		}
+		
+		int num1 = 123;
+		String str = "12345";
+		
+		System.out.println(str1.concat(Integer.toString(num1)));
 	}
 
 }
