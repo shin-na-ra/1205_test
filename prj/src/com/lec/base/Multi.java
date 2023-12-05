@@ -1,6 +1,7 @@
 package com.lec.base;
 
 import java.util.Calendar;
+import java.util.Scanner;
 
 public class Multi {
 
@@ -24,6 +25,12 @@ public class Multi {
 		
 		Calendar cal = Calendar.getInstance();
 		System.out.println(cal.get(Calendar.YEAR));
+		
+		Scanner scanner = new Scanner(System.in);
+		int inputNum = scanner.nextInt();
+		
+		System.out.println("입력한 숫자 : "+inputNum);
+		
 	}
 
 }
