@@ -28,6 +28,22 @@ public class Main {
 		}
 		
 		System.out.println("총합 : "+sum);
+		int total = 0;
+		int number = 0;
+		
+	//	Scanner sc = new Scanner(System.in);
+		
+		for(int i = 1; i<= number; i++) {
+			System.out.print(i+"의 숫자 : ");
+			total += sc.nextInt();
+		}
+		
+		for(int i = 1; i<= number; i++) {
+			System.out.print(i+"의 숫자 : ");
+			total += sc.nextInt();
+		}
+		
+		System.out.println("총합 : "+total);
 	}
 
 }
